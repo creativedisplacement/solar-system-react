@@ -11,7 +11,7 @@ const Planet = (props) => {
 
   return (
     <>
-      <Card onClick={handleShow}>
+      <Card onClick={handleShow} className='mx-auto'>
         <Card.Img variant='top' src={planet.imageUrl} />
         <Card.Body>
           <Card.Title>{planet.name}</Card.Title>

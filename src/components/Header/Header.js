@@ -1,21 +1,23 @@
 import React from 'react';
 import logo from '../../logo.svg';
+import Container from 'react-bootstrap/Container';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
 const Header = () => {
   return (
-    <header className='App-header'>
-      <img src={logo} className='App-logo' alt='logo' />
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <a
-        className='App-link'
-        href='https://reactjs.org'
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        Learn React
-      </a>
+    <header>
+      <Container className='col-12'>
+        <Jumbotron fluid>
+          <Container>
+            <h1>Planets of the Solar System</h1>
+            <p>
+              <img src={logo} className='App-logo' alt='logo' />
+              Some facts and figures on all the planets in the solar system in a
+              React app.
+            </p>
+          </Container>
+        </Jumbotron>
+      </Container>
     </header>
   );
 };
