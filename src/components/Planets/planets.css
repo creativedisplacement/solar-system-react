@@ -1,0 +1,14 @@
+.card-deck {
+  margin: 0;
+  border: solid 1px red;
+}
+
+.card-deck .card {
+  flex: none;
+  margin: 15px;
+}
+
+.card {
+  width: 23% !important;
+  float: left !important;
+}

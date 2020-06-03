@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Planets from './components/Planets';
-import Details from './components/PlanetDetails';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Planets from './components/Planets/Planets';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import PlanetsData from './data/planets.json';
 
 function App() {
   return (
@@ -15,8 +15,7 @@ function App() {
           <div className='col-12'></div>
         </div>
       </div>
-      <Planets />
-      <Details />
+      <Planets planets={PlanetsData} />
       <Footer />
     </div>
   );

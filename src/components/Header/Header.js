@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from '../logo.svg';
+import logo from '../../logo.svg';
 
-function Header() {
+const Header = () => {
   return (
     <header className='App-header'>
       <img src={logo} className='App-logo' alt='logo' />
@@ -18,6 +18,6 @@ function Header() {
       </a>
     </header>
   );
-}
+};
 
 export default Header;
