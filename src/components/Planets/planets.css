@@ -11,3 +11,15 @@
   width: 23% !important;
   float: left !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 95% !important;
+    float: none !important;
+    margin: 0 auto;
+  }
+
+  .footer {
+    float: left;
+  }
+}

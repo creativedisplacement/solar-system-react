@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 const Footer = () => {
   return (
-    <Container className='col-12 alert alert-dark'>
+    <Container className='col-12 alert alert-dark footer'>
       <Row>
         <Col xs={12} md={12}>
           <div className='col-12 alert-dark'>
